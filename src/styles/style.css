@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+}
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+div.card {
+    width: 40%;
+    border-style: solid;
+    padding: 1rem;
+}
+
+footer {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+}
