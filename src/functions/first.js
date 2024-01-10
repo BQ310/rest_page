@@ -7,6 +7,10 @@ const header = function () {
     const menu = document.createElement('div');
     const contact = document.createElement('div');
 
+    home.setAttribute('id', 'ht');
+    menu.setAttribute('id', 'mt');
+    contact.setAttribute('id', 'ct');
+
     home.textContent = "Home";
     menu.textContent = "Menu";
     contact.textContent = "Contact";

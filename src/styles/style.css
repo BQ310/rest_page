@@ -6,12 +6,20 @@ body {
     min-height: 100vh;
 }
 
+.burger {
+    background-image: url(../assets/a.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
 header {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
+    align-items: center;
     background-color: red;
     width: 100%;
+    height: 2rem;
 }
 
 div#content {
@@ -26,6 +34,7 @@ div.card {
     width: 40%;
     border-style: solid;
     padding: 1rem;
+    background-color: white;
 }
 
 footer {
